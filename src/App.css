@@ -1,0 +1,475 @@
+body {
+  background: #f5f5f5;
+}
+
+.searchHeader {
+  background: #6665d2;
+  width: 100%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.searchHeader h1 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 5em;
+}
+
+.searchInner {
+  padding: 100px;
+}
+
+input {
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 20px;
+}
+
+.searchInner input {
+  max-width: 100%;
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.searchInner p {
+  color: white;
+  font-weight: 300;
+  max-width: 100%;
+  width: 800px;
+  text-align: center;
+  line-height: 1.4em;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: block;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.innerCard {
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.add {
+  background: #6665d2;
+  border-radius: 9999px;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding-top: 15px;
+  z-index: 99;
+}
+
+.add span {
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.restaurantList {
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+.restaurantList h1 {
+  display: block;
+}
+
+.innerCard img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.innerPadding {
+  padding: 20px;
+}
+
+.imageContainer {
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rating {
+  background: white;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 50px;
+  left: 50px;
+  padding: 15px;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.cuisine {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.restaurantDetails {
+  position: relative;
+}
+
+.homeButton {
+  background: #6665d2;
+  border-radius: 9999px;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.editButton {
+  background: #6665d2;
+  border-radius: 9999px;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.summary {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.restaurantDetails h1 {
+  font-size: 6em;
+  color: white;
+}
+
+.restaurantDetails .cuisine {
+  color: white;
+  font-size: 1em;
+}
+
+.moveUp {
+  display: none;
+}
+
+.restaurantHeader {
+  overflow: hidden;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+  padding: 100px 0;
+}
+
+.overlay {
+  background: #6665d2;
+  opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.restaurantReviews {
+  padding: 40px;
+  position: relative;
+}
+
+.headerInner {
+  z-index: 2;
+  position: relative;
+}
+
+.description {
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.restaurantHeader .ratingBox {
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 25px;
+  width: max-content;
+  margin: 30px auto 0 auto;
+}
+
+.editRestaurant {
+  padding: 40px;
+  text-align: center;
+}
+
+.editRestaurant h1 {
+  font-size: 4em;
+  margin: 0 auto 40px auto;
+  display: block;
+}
+
+.editRestaurant form {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.editRestaurant form input {
+  margin: 10px 0 20px 0;
+}
+
+.editRestaurant form input[type="submit"] {
+  color: white;
+  font-weight: bold;
+  background-color: #6665d2;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: left !important;
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.centerReviews {
+  margin: 0 auto;
+  display: block;
+}
+
+.reviewCard {
+  margin: 0 auto;
+}
+
+.reviewCard .innerCard {
+  padding: 40px;
+}
+
+.publicationImage {
+  height: 50px;
+  width: unset !important;
+}
+
+.reviewCard .rating {
+  background: #6665d2;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  width: max-content;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  left: unset !important;
+}
+
+.reviewCard .innerPadding {
+  padding: 0px;
+}
+
+.reviewCard p {
+  margin: 40px 0;
+}
+
+.innerPadding .homeButton {
+  position: relative;
+  width: max-content;
+  top: unset;
+  left: unset;
+  margin: 0 auto;
+}
+
+.addRestaurant {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.addRestaurant h1 {
+  font-size: 4em;
+  margin: 0 auto 40px auto;
+  display: block;
+}
+
+.addRestaurant form {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.addRestaurant form input {
+  margin: 10px 0 20px 0;
+}
+
+.addRestaurant form input[type="submit"] {
+  color: white;
+  font-weight: bold;
+  background-color: #6665d2;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: left !important;
+  float: left;
+  margin-top: 10px;
+}
+
+.delete {
+  background-color: red !important;
+}
+
+.addReviewButton {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.addReviewButton div {
+  position: relative;
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  left: unset !important;
+  top: unset !important;
+  margin-top: 30px;
+}
+
+.ratingRange div {
+  width: 33.3%;
+  float: left;
+}
+
+.ratingRange .left {
+  text-align: left;
+}
+
+.ratingRange .right {
+  text-align: right;
+}
+
+textarea {
+  border: none !important;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.publications {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.publication {
+  cursor: pointer;
+  width: 33%;
+  float: left;
+}
+
+.publication img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.publicationInner {
+  background: white;
+  border-radius: 20px;
+  padding: 15px;
+  min-height: 100px;
+  max-height: 100px;
+  margin: 15px;
+  display: table;
+}
+
+.publicationCenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.opacity {
+  opacity: 0.3;
+}
+.message {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.message.error {
+  background-color: lightpink;
+}
+
+.message.success,
+.message.delete {
+  background-color: lightgreen;
+}
+
+.messageCenter {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.from {
+  font-size: 10px;
+  color: black;
+  opacity: 0.5;
+  text-transform: uppercase;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.money {
+  font-size: 10px;
+  color: black;
+  opacity: 0.5;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+}
+
+.testinghide {
+  display: none;
+}
+
+.small {
+  margin-top: 10px;
+  width: max-content;
+  margin: 0 auto;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+  border-radius: 9999px;
+}
